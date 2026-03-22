@@ -101,7 +101,7 @@ export default function Projects3D() {
                 {visibleProjects.map((project, index) => (
                   <div
                     key={`${project.id}-${index}`}
-                    className="absolute"
+                    className={`absolute ${project.position !== 'center' ? 'hidden md:block' : ''}`}
                     style={{
                       left: project.position === 'left' ? '5%' : project.position === 'center' ? '50%' : '85%',
                       transform: project.position === 'center' ? 'translateX(-50%)' : project.position === 'left' ? 'translateX(0)' : 'translateX(-100%)',

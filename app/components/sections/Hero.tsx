@@ -84,7 +84,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
-              className="text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 leading-[0.9]"
+              className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 leading-[0.9]"
             >
               <span className="block">JESSICA</span>
               <span className="block bg-gradient-to-r from-[#ec4899] via-[#a855f7] to-[#22d3ee] bg-clip-text text-transparent"
