@@ -61,7 +61,7 @@ export default function CategoryCarousel({ categories, onCategoryChange }: Categ
                 key={category.id}
                 initial={false}
                 animate={{
-                  scale: isSelected ? 1.2 : 0.8,
+                  scale: isSelected ? 1 : 0.8,
                   opacity: isSelected ? 1 : 0.5,
                   x: (index - selectedIndex) * (isSelected ? 0 : 20),
                 }}
