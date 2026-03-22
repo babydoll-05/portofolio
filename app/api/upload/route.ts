@@ -5,7 +5,7 @@ import path from 'path';
 import { checkAuth } from '@/lib/auth';
 
 export async function POST(req: NextRequest) {
-  const authed = await checkAuth(req);
+  const authed = await checkAuth();
   if (!authed) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
   const formData = await req.formData();
