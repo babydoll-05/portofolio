@@ -1,0 +1,49 @@
+[
+  {
+    "id": "1",
+    "title": "BrandAI-x402",
+    "description": "AI-Powered Instagram Content Generator",
+    "image": "/uploads/1774195744183.webp",
+    "tags": [
+      "Solidity",
+      "React",
+      "Node.js",
+      "CSS",
+      "JavaScript",
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "CSS",
+      "Hardhat",
+      "Wagmi"
+    ],
+    "category": "web3",
+    "demoUrl": "https://base.app/app/brandai-test.vercel.app/",
+    "githubUrl": "https://github.com/alventendrawan123/brandai-test",
+    "projectUrl": "https://devfolio.co/projects/brandaix-2732",
+    "videoUrl": "https://youtu.be/amMteFZE75w?feature=shared"
+  },
+  {
+    "title": "SomMemo",
+    "description": "Automated Crypto Inheritance Powered By Cron",
+    "image": "/uploads/1774196181059.webp",
+    "tags": [
+      "Crypto/Web3",
+      "DeFi",
+      "Social",
+      "Security",
+      "Somnia",
+      "Foundry",
+      "Openzeppelin",
+      "Somnia-SDK",
+      "Somnia-Reactivity",
+      "Cron-Subscriptions"
+    ],
+    "category": "web3",
+    "demoUrl": "https://sommemo.vercel.app/",
+    "githubUrl": "https://github.com/0xpochita/SomMemo/tree/main",
+    "id": "1774196347110",
+    "projectUrl": "https://dorahacks.io/buidl/40895",
+    "videoUrl": "https://youtu.be/UC-OuPxNHVo?si=ZDpE0BXB-N6pVs9T"
+  }
+]
