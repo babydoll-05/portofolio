@@ -52,7 +52,7 @@ export default function CategoryCarousel({ categories, onCategoryChange }: Categ
           {categories.map((category, index) => {
             const isSelected = index === selectedIndex;
             const distance = Math.abs(index - selectedIndex);
-            const isVisible = distance <= 2;
+            const isVisible = distance <= 1;
 
             if (!isVisible) return null;
 
@@ -67,7 +67,7 @@ export default function CategoryCarousel({ categories, onCategoryChange }: Categ
                 }}
                 transition={{ duration: 0.3 }}
                 onClick={() => handleSelect(index)}
-                className="cursor-pointer"
+                className={`cursor-pointer ${!isSelected ? 'hidden sm:block' : ''}`}
                 style={{ zIndex: isSelected ? 10 : 1 }}
               >
                 <div
@@ -80,8 +80,8 @@ export default function CategoryCarousel({ categories, onCategoryChange }: Categ
                     transition-all duration-300
                   `}
                   style={{
-                    width: isSelected ? '240px' : '180px',
-                    height: isSelected ? '320px' : '240px',
+                    width: isSelected ? 'min(240px, 70vw)' : '150px',
+                    height: isSelected ? 'min(320px, 50vw)' : '200px',
                   }}
                 >
                   <div className="absolute inset-0 bg-white/5 backdrop-blur-xl opacity-90" />
